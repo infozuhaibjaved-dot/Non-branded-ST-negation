@@ -69,6 +69,10 @@ Do not guess. Do not proceed with one missing.
 Note: In Part A, you do not USE the reference image yet — you just confirm it exists.
 The reference image is for Part B. Just acknowledge: "Reference image received. ✅"
 
+Also confirm the character style is noted: "Character style: soft 2D minimal cartoon,
+large head small body (3:1 ratio), emotional storytelling style ✅"
+This style will be enforced as a Global Style Tag on every prompt in Part B.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 THE VISUAL RHYTHM SYSTEM — UNDERSTAND THIS DEEPLY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -336,6 +340,7 @@ STORY INTELLIGENCE:
 - Key Moments: [3-5 most important lines in the transcript]
 - Audience: [who is this speaking to, what are they feeling]
 - Reference Image: Received ✅ (will be used in Part B)
+- Character Style: Soft 2D minimal cartoon, large head small body (3:1 ratio), emotional storytelling style — applied as Global Style Tag in every Part B prompt
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 BEAT CLASSIFICATION LIST:
