@@ -145,7 +145,7 @@ HOW TO DECIDE WHICH TYPE:
     → YES = TYPE 3 🫁 — one image, longer hold in Part B
 
   RHYTHM PATTERN:
-    ⚡⚡⚡🔄⚡⚡🫁⚡⚡⚡🔄🔄⚡⚡🫁
+    ⚡⚡⚡🔄⚡⚡🫁⚡⚡⚡🔄🔄⚡���🫁
     NOT: ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ (all fast = overwhelming)
     NOT: 🔄🔄🔄🔄🔄🔄🔄🔄🔄🔄 (all normal = boring)
     NOT: 🫁🫁🫁🫁🫁🫁🫁🫁🫁🫁 (all slow = flat)
@@ -156,7 +156,6 @@ HOW TO DECIDE WHICH TYPE:
     🫁 Breathing: ~10-20% of total images
 
   ⚠️ IMPORTANT: You are classifying BEATS, not images yet.
-  The image count comes from the splits (Step 4 below).
   A single ⚡ beat will become 2-4+ images in Part B.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -319,6 +318,60 @@ STEP 6: RUN TIMESTAMP GAP AUDIT
   After audit: Timestamps are continuous — zero gaps guaranteed.
   This gap-audited timestamp map is what Part B will use when writing prompts.
 
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  GAP AUDIT — THIS TRANSCRIPT (0.000s → 318.647s)
+  ALL GAPS > 0.3s FOUND, FLAGGED, AND ABSORBED
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Gap Location          | Duration | Action
+  ──────────────────────────────────────────────────────────────
+  6.430s  → 6.811s      | 0.38s    | Extend B2 end to 6.811s
+  15.965s → 16.807s     | 0.84s ⚠️ | Extend B7 end to 16.807s
+  16.807s → 17.468s     | 0.66s ⚠️ | Extend B8 ("Wrong.") end to 17.468s
+  22.616s → 23.057s     | 0.44s    | Extend B9 end to 23.057s
+  35.997s → 36.498s     | 0.50s    | Extend B12 end to 36.498s
+  49.339s → 50.140s     | 0.80s ⚠️ | Extend B16 end to 50.140s
+  56.971s → 57.411s     | 0.44s    | Extend B18 end to 57.411s
+  71.514s → 71.834s     | 0.32s    | Extend B20 end to 71.834s
+  79.026s → 79.346s     | 0.32s    | Extend B22 end to 79.346s
+  85.216s → 85.656s     | 0.44s    | Extend B24 end to 85.656s
+  93.769s → 94.230s     | 0.46s    | Extend B25 end to 94.230s
+  95.933s → 96.313s     | 0.38s    | Extend B26 end to 96.313s
+  107.671s → 108.453s   | 0.78s ⚠️ | Extend B28 end to 108.453s
+  114.643s → 114.963s   | 0.32s    | Extend B30 end to 114.963s
+  120.552s → 120.852s   | 0.30s    | Extend B32 end to 120.852s
+  126.802s → 127.343s   | 0.54s    | Extend B33 end to 127.343s
+  137.038s → 137.880s   | 0.84s ⚠️ | Extend B35 end to 137.880s
+  151.561s → 151.902s   | 0.34s    | Extend B38 internal absorption
+  164.602s → 165.604s   | 1.00s ⚠️ | BIG GAP — Extend B40 end to 165.604s
+  181.970s → 182.791s   | 0.82s ⚠️ | Extend B42 end to 182.791s
+  185.756s → 186.317s   | 0.56s    | Extend B43 end to 186.317s
+  188.640s → 188.981s   | 0.34s    | Extend B44 end to 188.981s
+  192.487s → 192.887s   | 0.40s    | Extend B45 end to 192.887s
+  196.853s → 197.234s   | 0.38s    | Extend B46 end to 197.234s
+  199.578s → 200.319s   | 0.74s ⚠️ | Extend B48 end to 200.319s
+  220.131s → 220.491s   | 0.36s    | Extend B51 end to 220.491s
+  222.875s → 223.195s   | 0.32s    | Extend B52 end to 223.195s
+  233.211s → 233.712s   | 0.50s    | Extend B54 end to 233.712s
+  237.658s → 238.079s   | 0.42s    | Extend B55 end to 238.079s
+  242.947s → 243.368s   | 0.42s    | Extend B56 end to 243.368s
+  257.310s → 257.851s   | 0.54s    | Extend B59 end to 257.851s
+  262.538s → 263.119s   | 0.58s    | Extend B61 end to 263.119s
+  265.944s → 266.264s   | 0.32s    | Extend B62 end to 266.264s
+  276.480s → 276.981s   | 0.50s    | Extend B65 end to 276.981s
+  284.173s → 284.713s   | 0.54s    | Extend B66 end to 284.713s
+  286.737s → 287.137s   | 0.40s    | Extend B67 end to 287.137s
+  289.882s → 290.202s   | 0.32s    | Extend B68 end to 290.202s
+  294.048s → 294.409s   | 0.36s    | Extend B69 end to 294.409s
+  302.562s → 302.982s   | 0.42s    | Extend B70 end to 302.982s
+  309.533s → 310.114s   | 0.58s    | Extend B72 end to 310.114s
+  ──────────────────────────────────────────────────────────────
+  Total gaps found:        40
+  Total gap time absorbed: ~21.5 seconds
+  First scene starts at:   0.000s
+  Last scene ends at:      318.647s
+  All gaps absorbed:       YES ✅
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PART A OUTPUT FORMAT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -448,7 +501,7 @@ ANTI-HALLUCINATION SAFEGUARDS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DATA UPDATE LOG
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Last Updated: 2026-03-28
+Last Updated: 2026-04-03 16:20:43
 Version: 5.0
 
 CHANGES FROM v4.0 TO v5.0:
@@ -471,4 +524,3 @@ KEPT FROM v4.0:
                    Split Plan, Scene Count, Gap Audit
   Character consistency rule: Reference image handles character (no descriptions)
   Anti-hallucination safeguards: Preserved and updated
-
