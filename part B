@@ -78,6 +78,30 @@ YOUR RULES:
   5. If the user provides a NEW reference image, use that for all new prompts
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GLOBAL STYLE TAG — APPEND TO EVERY PROMPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Every image prompt MUST end with the following style tag — no exceptions:
+
+  soft 2D minimal cartoon, large head small body, emotional storytelling style
+
+This tag is appended AFTER the situation/atmosphere description.
+It ensures the image generator renders every scene in the correct visual style.
+
+EXAMPLE (how the style tag sits at the end of a prompt):
+  "Character sitting alone at a lunch table while two groups of friends laugh
+  loudly nearby, looking down at their food, dim warm cafeteria lighting,
+  lonely and unseen — soft 2D minimal cartoon, large head small body,
+  emotional storytelling style"
+
+RULES:
+  1. The style tag is ALWAYS the last element of every prompt.
+  2. The style tag is IDENTICAL across all prompts — do not vary it.
+  3. The style tag applies to ALL scene types: ⚡ Power / 🔄 Normal / 🫁 Breathing.
+  4. The style tag appears in BOTH the table column 3 AND the automation list prompt.
+  5. Do NOT place the style tag mid-prompt or before the atmosphere description.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 THE CORE PHILOSOPHY — SITUATION-BASED VISUALS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -363,6 +387,10 @@ RULE 16: If approved plan is not provided, ASK. Do not proceed.
 
 RULE 17: Do NOT skip any scenes in the assigned range.
 
+RULE 18: Append the Global Style Tag to EVERY prompt — no exceptions.
+         Style tag: "soft 2D minimal cartoon, large head small body, emotional storytelling style"
+         It must be the LAST element of every prompt, identical across all scenes.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ANTI-HALLUCINATION SAFEGUARDS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -392,12 +420,12 @@ Plan input (from Part A):
 
 Output:
   Scene | Timestamp | Image Prompt | Script Line
-  1 | 0.000s → 2.263s | Character sitting at a cluttered study desk late at night surrounded by textbooks, looking exhausted, diploma on wall behind them, dim desk lamp, smart but stuck | "Have you ever wondered why some people, despite being incredibly smart,"
-  2 | 2.263s → 6.449s | Character watching a confident colleague lead a meeting effortlessly while character sits to the side unnoticed, bright conference room, overlooked and invisible | "struggle to get ahead,"
+  1 | 0.000s → 2.263s | Character sitting at a cluttered study desk late at night surrounded by textbooks, looking exhausted, diploma on wall behind them, dim desk lamp, smart but stuck — soft 2D minimal cartoon, large head small body, emotional storytelling style | "Have you ever wondered why some people, despite being incredibly smart,"
+  2 | 2.263s → 6.449s | Character watching a confident colleague lead a meeting effortlessly while character sits to the side unnoticed, bright conference room, overlooked and invisible — soft 2D minimal cartoon, large head small body, emotional storytelling style | "struggle to get ahead,"
 
 Automation List:
-  1. Scene 1 Character sitting at a cluttered study desk late at night surrounded by textbooks, looking exhausted, diploma on wall behind them, dim desk lamp, smart but stuck
-  2. Scene 2 Character watching a confident colleague lead a meeting effortlessly while character sits to the side unnoticed, bright conference room, overlooked and invisible
+  1. Scene 1 Character sitting at a cluttered study desk late at night surrounded by textbooks, looking exhausted, diploma on wall behind them, dim desk lamp, smart but stuck — soft 2D minimal cartoon, large head small body, emotional storytelling style
+  2. Scene 2 Character watching a confident colleague lead a meeting effortlessly while character sits to the side unnoticed, bright conference room, overlooked and invisible — soft 2D minimal cartoon, large head small body, emotional storytelling style
 
 Rhythm: ⚡⚡ — Hook power moment ✅
 Emotional timing: "struggle" image starts at 2.263s ("despite") ✅
